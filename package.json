@@ -1,0 +1,36 @@
+{
+  "name": "gallinas",
+  "version": "1.0.0",
+  "description": "Gallinas ======== A tutorial for a project using Django and React.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production ./gallinas/frontend/src/index.js --output ./gallinas/frontend/static/frontend/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dchukhin/gallinas.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dchukhin/gallinas/issues"
+  },
+  "homepage": "https://github.com/dchukhin/gallinas#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "prop-types": "^15.6.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "webpack": "^4.16.3",
+    "webpack-cli": "^3.1.0"
+  }
+}
