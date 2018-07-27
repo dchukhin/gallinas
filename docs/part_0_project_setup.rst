@@ -16,3 +16,33 @@ things installed before going further:
   You may do so from the NodeJS `downloads page <https://nodejs.org/en/download/>`_,
   or by using a something like `nvm <https://github.com/creationix/nvm#install-script>`_
   to manage different versions of NodeJS on your computer.
+
+Backend Setup
+-------------
+
+#. Setup a virtual environment for the backend
+
+   For more information about why you should use a virtual environment, see
+   `an article about using Python virtual environments
+   <https://realpython.com/python-virtual-environments-a-primer/>`_.
+
+   We use a tool called virtualenvwrapper to create a virtual environment for the
+   backend. You will need to install it::
+
+    pip install virtualenvwrapper
+
+   and create a virtual environment for your project::
+
+    mkvirtualenv gallinas
+
+#. Clone the repository::
+
+    git clone git@github.com:dchukhin/gallinas.git
+
+   and move into the project directory::
+
+    cd gallinas
+
+#. Install the backend dependencies into your virtual environment::
+
+    pip install -r requirements.txt
