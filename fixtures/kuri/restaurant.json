@@ -1,0 +1,26 @@
+[
+{
+  "model": "kuri.restaurant",
+  "pk": 1,
+  "fields": {
+    "name": "Pizza Place",
+    "address": "123 Main St",
+    "city": "Durham",
+    "state": "NC",
+    "zip_code": "27701",
+    "upload": "restaurant-images/pizza.jpg"
+  }
+},
+{
+  "model": "kuri.restaurant",
+  "pk": 2,
+  "fields": {
+    "name": "Sushi Place",
+    "address": "124 Main St.",
+    "city": "Raleigh",
+    "state": "NC",
+    "zip_code": "27609",
+    "upload": "restaurant-images/sushi.jpg"
+  }
+}
+]
