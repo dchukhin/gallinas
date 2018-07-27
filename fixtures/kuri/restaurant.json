@@ -1,26 +1,242 @@
 [
 {
   "model": "kuri.restaurant",
-  "pk": 1,
+  "pk": 4,
   "fields": {
-    "name": "Pizza Place",
-    "address": "123 Main St",
-    "city": "Durham",
-    "state": "NC",
-    "zip_code": "27701",
-    "upload": "restaurant-images/pizza.jpg"
+    "name": "Xi'an Famous Foods",
+    "address": "24 W 45th St",
+    "city": "New York",
+    "state": "NY",
+    "zip_code": "10036",
+    "upload": "restaurant-images/xian-famous-foods.jpg"
   }
 },
 {
   "model": "kuri.restaurant",
-  "pk": 2,
+  "pk": 5,
   "fields": {
-    "name": "Sushi Place",
-    "address": "124 Main St.",
+    "name": "The Plaza Food Hall USA",
+    "address": "1 W 59th St",
+    "city": "New York",
+    "state": "NY",
+    "zip_code": "10019",
+    "upload": "restaurant-images/food-hall-ny.jpg"
+  }
+},
+{
+  "model": "kuri.restaurant",
+  "pk": 6,
+  "fields": {
+    "name": "Carl's Jr.",
+    "address": "425 7th Ave",
+    "city": "New York",
+    "state": "NY",
+    "zip_code": "10001",
+    "upload": "restaurant-images/carls-jr.jpg"
+  }
+},
+{
+  "model": "kuri.restaurant",
+  "pk": 7,
+  "fields": {
+    "name": "Muscle Maker Grill",
+    "address": "691 10th Ave",
+    "city": "New York",
+    "state": "NY",
+    "zip_code": "10036",
+    "upload": "restaurant-images/muscle-maker.jpg"
+  }
+},
+{
+  "model": "kuri.restaurant",
+  "pk": 8,
+  "fields": {
+    "name": "Walter Foods",
+    "address": "253 Grand St",
+    "city": "Brooklyn",
+    "state": "NY",
+    "zip_code": "11211",
+    "upload": "restaurant-images/walter-food.jpg"
+  }
+},
+{
+  "model": "kuri.restaurant",
+  "pk": 9,
+  "fields": {
+    "name": "Bull City Burger and Brewery",
+    "address": "107 E Parrish St",
+    "city": "Durham",
+    "state": "NC",
+    "zip_code": "27701",
+    "upload": "restaurant-images/bull-city.jpg"
+  }
+},
+{
+  "model": "kuri.restaurant",
+  "pk": 10,
+  "fields": {
+    "name": "Fullsteam Brewery",
+    "address": "726 Rigsbee Ave",
+    "city": "Durham",
+    "state": "NC",
+    "zip_code": "27701",
+    "upload": "restaurant-images/Fullsteam.jpg"
+  }
+},
+{
+  "model": "kuri.restaurant",
+  "pk": 11,
+  "fields": {
+    "name": "Moe's Southwest Grill",
+    "address": "359 Blackwell St Suite 115",
+    "city": "Durham",
+    "state": "NC",
+    "zip_code": "27701",
+    "upload": "restaurant-images/moes.jpg"
+  }
+},
+{
+  "model": "kuri.restaurant",
+  "pk": 12,
+  "fields": {
+    "name": "COPA",
+    "address": "107 W Main St",
+    "city": "Durham",
+    "state": "NC",
+    "zip_code": "27701",
+    "upload": "restaurant-images/copa.jpg"
+  }
+},
+{
+  "model": "kuri.restaurant",
+  "pk": 13,
+  "fields": {
+    "name": "Ponysaurus Brewing Company",
+    "address": "219 Hood St",
+    "city": "Durham",
+    "state": "NC",
+    "zip_code": "27701",
+    "upload": "restaurant-images/durham-ponysaurus-brewery.jpg"
+  }
+},
+{
+  "model": "kuri.restaurant",
+  "pk": 14,
+  "fields": {
+    "name": "Caffe Luna",
+    "address": "136 E Hargett St",
     "city": "Raleigh",
     "state": "NC",
-    "zip_code": "27609",
-    "upload": "restaurant-images/sushi.jpg"
+    "zip_code": "27601",
+    "upload": "restaurant-images/cafe-luna.jpg"
+  }
+},
+{
+  "model": "kuri.restaurant",
+  "pk": 15,
+  "fields": {
+    "name": "18 Seaboard",
+    "address": "18 Seaboard Ave",
+    "city": "Raleigh",
+    "state": "NC",
+    "zip_code": "27604",
+    "upload": "restaurant-images/seaboard.jpg"
+  }
+},
+{
+  "model": "kuri.restaurant",
+  "pk": 16,
+  "fields": {
+    "name": "La Santa Modern Mexican Food",
+    "address": "222 Glenwood Ave #107",
+    "city": "Raleigh",
+    "state": "NC",
+    "zip_code": "27603",
+    "upload": "restaurant-images/la-santa.jpg"
+  }
+},
+{
+  "model": "kuri.restaurant",
+  "pk": 17,
+  "fields": {
+    "name": "so\u2022ca",
+    "address": "2130 Clark Ave",
+    "city": "Raleigh",
+    "state": "NC",
+    "zip_code": "27605",
+    "upload": "restaurant-images/soca.jpg"
+  }
+},
+{
+  "model": "kuri.restaurant",
+  "pk": 18,
+  "fields": {
+    "name": "Coco Bongo",
+    "address": "2400 Hillsborough St",
+    "city": "Raleigh",
+    "state": "NC",
+    "zip_code": "27607",
+    "upload": "restaurant-images/coco-bongo.jpg"
+  }
+},
+{
+  "model": "kuri.restaurant",
+  "pk": 19,
+  "fields": {
+    "name": "Krispy Kreme Raleigh",
+    "address": "549 N Person St",
+    "city": "Raleigh",
+    "state": "NC",
+    "zip_code": "27604",
+    "upload": "restaurant-images/krispy.jpg"
+  }
+},
+{
+  "model": "kuri.restaurant",
+  "pk": 20,
+  "fields": {
+    "name": "Miami Subs Grill",
+    "address": "3700 NW 42nd Ave",
+    "city": "Miami Springs",
+    "state": "FL",
+    "zip_code": "33166",
+    "upload": "restaurant-images/miami-grill.jpg"
+  }
+},
+{
+  "model": "kuri.restaurant",
+  "pk": 21,
+  "fields": {
+    "name": "The Daily Creative Food Co",
+    "address": "959 West Ave #10",
+    "city": "Miami Beach",
+    "state": "FL",
+    "zip_code": "33139",
+    "upload": "restaurant-images/the-daily-creative-food.jpg"
+  }
+},
+{
+  "model": "kuri.restaurant",
+  "pk": 22,
+  "fields": {
+    "name": "Versailles Cuban Bakery",
+    "address": "3501 SW 8th St",
+    "city": "Miami",
+    "state": "FL",
+    "zip_code": "33135",
+    "upload": "restaurant-images/cuban-bakery.jpg"
+  }
+},
+{
+  "model": "kuri.restaurant",
+  "pk": 23,
+  "fields": {
+    "name": "La Parrilla Liberty 67 North Beach",
+    "address": "222 67th St, Miami Beach, FL 33141",
+    "city": "Miami Beach",
+    "state": "FL",
+    "zip_code": "33141",
+    "upload": "restaurant-images/parrilla.jpg"
   }
 }
 ]
